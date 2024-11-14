@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Magomed Madajev
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
 
@@ -36,15 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
+  https://teuxdeux.com/home
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home  
+  <img src="readme-images/teuxdeux-home.png" width="375px" alt="Home pagina van de agenda website, waar je de dagen kunt zien en je taken invoert.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  settings  
+  <img src="readme-images/teuxdeux-settings.png" width="375px" alt="De settings van de site waar je de thema, lettergroote, kleur etc. verancdert.">
  
 </details>
 
