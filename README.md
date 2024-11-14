@@ -36,14 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://teuxdeux.com/home
+  https://www.ikea.com/nl/nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home  
-  <img src="readme-images/teuxdeux-home.png" width="375px" alt="Home pagina van de agenda website, waar je de dagen kunt zien en je taken invoert.">
+  <img src="readme-images/Smoothcomp-home.png" width="375px" alt="Home pagina van de Smoothcomp website, een site die het makkelijk maakt om vechtsport events op te stellen of bij te wonen.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   settings  
-  <img src="readme-images/teuxdeux-settings.png" width="375px" alt="De settings van de site waar je de thema, lettergroote, kleur etc. verancdert.">
+  <img src="readme-images/Smoothcomp-events.png" width="375px" alt="De events pagina waar je een eige competitie kan opstellen of bijwonen.">
  
 </details>
 
