@@ -1,6 +1,12 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -15,8 +21,12 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#ffffff;
+	--color-background:#0a0a0a;
+	--border-color: #fbff00;
+	--gradient-one: rgba(0, 0, 0, 0.85);
+	--gradient-two: rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -27,5 +37,156 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
 
+/****************/
+/*    HEADER    */
+/****************/
+header{
+	min-height: 4em;
+    padding: 0 1em;
+    background-image: var(--color-background);
+    line-height: 1;
+	background-color: var(--color-background);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	
+}
+
+header > a:first-of-type {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-gap: .25em;
+    align-items: center;
+    font-weight: bold;
+}
+
+header a {
+    padding: .5em 0;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+header > a:last-of-type {
+    display: flex;
+    align-items: center;
+    column-gap: .25em;
+}
+
+header > a:first-of-type img {
+    height: 3em;
+}
+
+header > a:last-of-type img {
+    width: auto;
+    height: 2em;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+	order: 10;
+}
+
+nav ul {
+    margin: 0;
+    padding: 4em 1em 0;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    background: var(--color-background);
+    flex-direction: row;
+    flex-wrap: wrap;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	translate: 100%; 
+
+}
+
+nav li {
+    flex-basis: 9em;
+    flex-grow: 1;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .25em;
+    border: solid 1px var(--border-color);
+	color: var(--color-text);
+}
+
+nav a img {
+    width: auto;
+    height: 2em;
+}
+
+nav button {
+    padding: .5em;
+    display: flex;
+    align-items: center;
+    gap: .25em;
+    appearance: none;
+    background-color: var(--color-background);
+    border: none;
+    border-radius: .25em;
+    font: inherit;
+    text-align: center;
+    color: var(--color-text);
+}
+
+
+
+/****************/
+/*     MAIN     */
+/****************/
+
+body {
+    margin:0;
+	background: var(--color-background);
+	color: var(--color-text);
+}
+
+body h1{
+	font-weight: normal;
+}
+
+main{
+	font-size: 2em;
+}
+
+body > section:first-of-type{
+	font-size: 2em;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    min-height: 60vh;
+    padding-bottom: 3vh;
+	background: linear-gradient(120deg, var(--gradient-one) 0%, var(--gradient-two) 100%);
+}
+
+section > img:first-child{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border: 0;
+	max-width: 100%;
+	vertical-align: middle;
+	overflow-clip-margin: content-box;
+    overflow: clip;
+}
