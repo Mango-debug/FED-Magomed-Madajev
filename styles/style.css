@@ -152,7 +152,6 @@ nav button {
 /****************/
 
 body {
-    margin:0;
 	background: var(--color-background);
 	color: var(--color-text);
 	line-height: 1.6;
